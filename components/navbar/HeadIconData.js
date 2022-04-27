@@ -12,7 +12,7 @@ export const HeadIconData = [
   {
     alt: "Resume",
     image: Resume,
-    onClick: "/CHARLIECARRxRESUMExAPR22.pdf",
+    onClick: "/CharlieCarrResumeApril2022.pdf",
   },
   {
     alt: "Email",

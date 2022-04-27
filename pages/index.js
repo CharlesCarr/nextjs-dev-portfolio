@@ -4,7 +4,7 @@ import ParticlesLayout from "../components/ParticlesLayout";
 
 const Home = () => {
   const resumeHandler = () => {
-    window.open("/CHARLIECARRxRESUMExAPR22.pdf");
+    window.open("/CharlieCarrResumeApril2022.pdf");
   };
 
   return (
