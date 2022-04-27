@@ -22,7 +22,7 @@ export const ProjectsData = [
     image: StockChartz,
     description: "This project allows users to input stock tickers to display animated, responsive stock price chart data. The user can add up to two stock tickers and compare side by side with a biaxial chart. Users can also easily view percentage change performance in a side component. Stock price data is fetched from an external API for current pricing. (See README on GitHub for more specific details.)",
     github: "https://github.com/CharlesCarr/react-stock-chart",
-    demo: "https://react-stock-chart.web.app/",
+    demo: "https://stockchartz.web.app/",
     tech: ["React JS", "Chakra UI", "Polygon.io API", "Recharts"],
   }
 ];
