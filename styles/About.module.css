@@ -1,107 +1,104 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .top {
-    /* height: 50%; */
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 3%;
-    /* border-bottom: 1px solid black; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
-    font-family: 'Play', sans-serif;
-    font-weight: 400;
-    margin-bottom: 2%;
-    margin-top: 2%;
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
 
 .divider {
-    width: 90%;
+  width: 90%;
 }
 
 .bottom {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
 }
 
 .skillstitle {
-    font-weight: 300;
-    text-align: center;
-    font-size: 20px;
-    font-family: 'Play', sans-serif;
-    font-weight: 400;
-    margin-bottom: 3%;
+  font-weight: 300;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  margin-bottom: 3%;
 }
 
 .bio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
 }
 
 .para {
-    width: 75%;
-    text-align: center;
-    font-size: 17px;
-    font-family: 'Exo 2', sans-serif;
-    line-height: 25px;
-    margin: 0;
-    margin-bottom: 2.5%;
+  width: 75%;
+  text-align: center;
+  font-size: 17px;
+  font-family: "Exo 2", sans-serif;
+  line-height: 25px;
+  margin: 0;
+  margin-bottom: 2.5%;
 }
 
 .listgroup {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    font-family: 'Exo 2', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  font-family: "Exo 2", sans-serif;
 }
 
 .list {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
 }
 
 .topitem {
-    font-size: 16px;
-    margin-bottom: 10%;
+  font-size: 16px;
+  margin-bottom: 10%;
 }
 
 .item {
-    font-size: 14px;
-    margin-bottom: 10%;
+  font-size: 14px;
+  margin-bottom: 10%;
 }
 
 @media only screen and (max-width: 870px) {
-    .bio {
-        width: 100%;
-    }
-    .para {
-        width: 90%;
-        height: 100%;
-    }
+  .bio {
+    width: 100%;
+  }
+  .para {
+    width: 90%;
+    height: 100%;
+  }
 }
 
 @media only screen and (max-width: 515px) {
-    .para {
-        font-size: 14px;
-    }
+  .para {
+    font-size: 14px;
+  }
 }

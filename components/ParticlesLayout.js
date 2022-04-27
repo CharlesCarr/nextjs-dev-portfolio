@@ -6,8 +6,7 @@ const ParticlesLayout = () => {
     await loadFull(main);
   };
 
-  const particlesLoaded = (container) => {
-  };
+  const particlesLoaded = (container) => {};
   return (
     <Particles
       id="tsparticles"
@@ -17,10 +16,6 @@ const ParticlesLayout = () => {
         fpsLimit: 120,
         interactivity: {
           events: {
-            // onClick: {
-            //   enable: true,
-            //   mode: "push",
-            // },
             onHover: {
               enable: true,
               mode: "repulse",
@@ -28,9 +23,6 @@ const ParticlesLayout = () => {
             resize: true,
           },
           modes: {
-            // push: {
-            //   quantity: 2,
-            // },
             repulse: {
               distance: 100,
               duration: 0.4,
