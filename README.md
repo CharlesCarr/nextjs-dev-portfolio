@@ -6,7 +6,7 @@ My personal portfolio website to display my software development projects and pr
 
 ## Description
 
-I designed and built this mobile friendly, responsive project portfolio with React and Next.js. I used the combination of React and Next.js for enhanced performance with stronger SEO and UX thanks to both server side and dynamic client side rendering. Additionally, I used the [Particles.js](https://particles.js.org/) for the animated background design. I designed this website in Figma prior to building and used CSS modules for dedicated component stylesheets.
+I designed and built this mobile friendly, responsive project portfolio with React and Next.js. I used the combination of React and Next.js for enhanced performance with stronger SEO and UX thanks to both server side and dynamic client side rendering. Additionally, I used [Particles.js](https://particles.js.org/) for the animated background design. I designed this website in Figma prior to building and used CSS modules for dedicated component stylesheets.
 
 ## Latest Projects
 
