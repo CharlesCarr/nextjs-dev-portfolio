@@ -1,0 +1,110 @@
+.container {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 40%);
+  width: 50%;
+  height: 100%;
+  z-index: 100;
+  background-color: #2b343f;
+  padding: 4%;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-size: 50px;
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 1%;
+}
+
+.title {
+  font-size: 45px;
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 5%;
+  color: lightgray;
+}
+
+.btn {
+  width: 30%;
+  height: 40px;
+  background-color: rgb(24, 24, 24);
+  color: white;
+  border-radius: 15px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  cursor: pointer;
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  background-color: rgb(48, 48, 48);
+}
+
+@media only screen and (max-width: 1200px) {
+  .name {
+    font-size: 40px;
+  }
+  .title {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .container {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .name {
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 5%;
+  }
+  .title {
+    font-size: 25px;
+    margin-bottom: 10%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .btn {
+    font-size: 14px;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .container {
+    min-height: 300px;
+  }
+  .name {
+    font-size: 25px;
+    margin-bottom: 10%;
+  }
+  .title {
+    font-size: 20px;
+    margin-bottom: 12%;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .container {
+    width: 85%;
+  }
+}

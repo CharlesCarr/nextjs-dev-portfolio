@@ -1,0 +1,205 @@
+.container {
+  margin-top: 2%;
+}
+
+.projectscontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.projecttop {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: "Play", sans-serif;
+  color: white;
+  font-size: 24px;
+  margin-left: 5%;
+}
+
+.fullproject {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.projectleft {
+  width: 37%;
+  max-width: 750px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 15px;
+}
+
+.image {
+  border-radius: 15px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 20px;
+  width: 50%;
+  max-width: 750px;
+  height: 100%;
+  min-height: 200px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.aboutcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e1e1e1;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.projectbottom {
+  width: 100%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #2b343f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 4%;
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+}
+
+.projecttitle {
+  font-size: 20px;
+  margin-bottom: 0;
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  color: rgb(24, 24, 24);
+}
+
+.description {
+  font-size: 14px;
+  text-align: center;
+  width: 85%;
+  font-family: "Exo 2", sans-serif;
+  line-height: 24px;
+  color: rgb(24, 24, 24);
+}
+
+.btncontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.btn {
+  width: 150px;
+  height: 40px;
+  background-color: rgb(24, 24, 24);
+  color: white;
+  border-radius: 15px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  cursor: pointer;
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0 30px;
+
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  background-color: rgb(48, 48, 48);
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.item {
+  font-size: 12px;
+  color: white;
+  font-family: "Exo 2", sans-serif;
+}
+
+.morecontainer {
+  align-self: center;
+  justify-self: center;
+  margin-bottom: 3%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.moreprojects {
+  width: 25%;
+  height: 40px;
+  background-color: rgb(24, 24, 24);
+  color: white;
+  border-radius: 15px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  cursor: pointer;
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  transition: all 0.5s ease;
+}
+
+.moreprojects:hover {
+  transform: scale(1.1);
+  background-color: rgb(48, 48, 48);
+}
+
+@media screen and (max-width: 900px) {
+  .project {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .project {
+    width: 95%;
+    margin-top: 7%;
+    margin-bottom: 5%;
+  }
+  .moreprojects {
+    width: 75%;
+  }
+  .item {
+    font-size: 11px;
+  }
+}
