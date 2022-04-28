@@ -7,7 +7,7 @@ export const ProjectsData = [
     title: "MY WORKOUT APP",
     image: WorkoutApp,
     description:
-      "I designed and built this responsive workout web app with React. This is V2 of this project as I wanted to create a more custom workout tracker for myself. After creating a profile, users are able to create, save, and edit new workouts to store in the user’s library of workouts. Users can then select a workout for the day to have on hand while at the gym. (See README on GitHub for more specific details.)",
+      "This is a mobile friendly, custom workout tracker web app built with React. After creating a profile, users are able to create, save, and edit workouts to store in the user’s library of workouts. Users can then select a workout for the day to have on hand while at the gym. (See README on GitHub for more specific details.)",
     github: "https://github.com/CharlesCarr/workout-v2",
     demo: "https://workout-tracker-faa13.web.app/",
     tech: [
